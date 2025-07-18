@@ -32,3 +32,26 @@ console.log("BMIMark" + " " + BMIMark);
 console.log("BMIJohn" + " " + BMIJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 console.log(markHigherBMI);
+if (BMIMark > BMIJohn) {
+  console.log(`mARKS bmi(${BMIMark}) is higher tham john (${BMIJohn})`);
+} else {
+  console.log(`john bmi(${BMIJohn}) is higher tham mark (${BMIMark})`);
+}
+
+//if else statement
+const dolphinScore1 = 96;
+const dolphinScore2 = 108;
+const dolphinScore3 = 89;
+const kolasScore1 = 88;
+const kolasScore2 = 91;
+const kolasScore3 = 110;
+const scoreDolphin = (dolphinScore1 + dolphinScore2 + dolphinScore3) / 3;
+const scoreKolas = (kolasScore1 + kolasScore2 + kolasScore3) / 3;
+console.log(scoreDolphin, scoreKolas);
+if (scoreDolphin > scoreKolas) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKolas > scoreDolphin) {
+  console.log("Koalas win the trophy");
+} else if (scoreDolphin === scoreKolas) {
+  console.log("Both win the trophy");
+}
