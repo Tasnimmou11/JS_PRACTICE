@@ -55,3 +55,35 @@ if (scoreDolphin > scoreKolas) {
 } else if (scoreDolphin === scoreKolas) {
   console.log("Both win the trophy");
 }
+
+//switch case statement
+const day = "monday";
+switch (day) {
+  case "monday":
+    console.log("plan course structure");
+    console.log("coding meetup");
+    break;
+  case "tuesday":
+    console.log("prepare theory videos");
+    break;
+  case "wednesday":
+    console.log("record videos");
+    break;
+  case "thursday":
+  case "friday":
+    console.log("enjoy the weekend");
+    break;
+  default:
+    console.log("not a valid day");
+}
+
+const day1 = "tuesday";
+if (day1 === "tuesday") {
+  console.log("prepare theory videos");
+} else if (day1 === "wednesday") {
+  console.log("record videos");
+} else if (day1 === "thursday" || "friday") {
+  console.log("enjoy the weekend");
+} else {
+  console.log("not a valid day");
+}
